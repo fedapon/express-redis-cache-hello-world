@@ -7,7 +7,7 @@ services:
       - "./:/app"
     expose:
       - "3000"
-    command: bash -c "npm i && npm run start"
+    command: bash -c "npm i && npm run dev"
     working_dir: /app
     ports:
       - 3000:3000

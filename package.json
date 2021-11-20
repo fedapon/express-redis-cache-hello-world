@@ -23,6 +23,7 @@
     "@types/typescript": "^2.0.0",
     "node-ts": "^5.1.2",
     "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
     "tsc": "^2.0.3"
   }
 }
