@@ -6,7 +6,7 @@ import axios, { AxiosError } from "axios"
 
 dotenv.config()
 const app = express()
-const redisClient = new ioredis(6379, "192.168.1.110")
+const redisClient = new ioredis(6379, "redis")
 
 //middlewares
 app.use(express.json())
