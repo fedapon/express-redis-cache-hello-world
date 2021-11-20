@@ -1,5 +1,5 @@
 {
-  "name": "express-redis-cache-hello-world",
+  "name": "express-redis-cache-helloworld",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
