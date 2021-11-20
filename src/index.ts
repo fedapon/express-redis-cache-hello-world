@@ -12,7 +12,7 @@ const redisClient = new ioredis(6379, "redis")
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-app.use('/', express.static( path.resolve('./src/public') ))
+app.use('/', express.static( path.resolve('./public') ))
 
 app.get("/character", async function (req, res) {
     try {
